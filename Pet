@@ -1,0 +1,15 @@
+private void buttonChoice_Click(object sender, EventArgs e)
+{
+    textBoxAns.Text = " ";
+    if (checkBoxCat.Checked)
+    {
+        textBoxAns.Text += checkBoxCat.Text + " ";
+    }
+    if (checkBoxParrot.Checked)
+    {
+        textBoxAns.Text += checkBoxParrot.Text + " ";
+    }
+    if (checkBoxDog.Checked)
+    {
+        textBoxAns.Text += checkBoxDog.Text + " ";
+    }
